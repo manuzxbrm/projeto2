@@ -72,4 +72,6 @@ function classificaSenha(tamanhoAlfabeto){
     } else if (entropia <= 35){
         forcaSenha.classList.add('fraca');
     }
+    const valorEntropia = document.querySelector('.entropia');
+    valorEntropia.textContent = entropia;
 }
