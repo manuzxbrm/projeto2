@@ -117,11 +117,12 @@ body {
         height:20px;
         cursor: pointer;
     }
-    
+
         .barra{
             background-color: var(--fundo-senha);
             height: 30px;
             width: 100%;
+            border: 1px solid var(--borda);
         }
     }
 
