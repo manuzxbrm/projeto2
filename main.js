@@ -73,5 +73,5 @@ function classificaSenha(tamanhoAlfabeto){
         forcaSenha.classList.add('fraca');
     }
     const valorEntropia = document.querySelector('.entropia');
-    valorEntropia.textContent = entropia;
+    valorEntropia.textContent = 2**Math.floor(entropia);
 }
