@@ -145,7 +145,7 @@ body {
              width: 100%;
         }
 
-    .parametro-senha-textos {
+   .parametro-senha-textos {
     display: flex;
     justify-content: space-between;
 }
@@ -155,4 +155,3 @@ body {
     .parametro-coluna__senha {
         flex-direction: row;
     }
-}
